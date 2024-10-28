@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fefefe;
+  font-family: sans-serif;
+}
+
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  height: 54px;
+
+  box-shadow: 1px 4px 5px 0px #757575;
+}
+
+.logo {
+  width: px;
+  height: 24px;
+}
+
+.btn {
+  padding: 12px;
+  border: none;
+  border-radius: 16px;
+  background-color: #e1e1e1;
+
+  font-weight: bold;
+
+  width: 100px;
+  height: 40px;
+  color: #757575;
+}
+
+.profile {
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+
+  flex-direction: column;
+  /* // horizontal / vertical-align */
+  justify-content: center;
+
+
+  /* // vertical-align: // horizontal */
+
+  align-items: center;
+ 
+}
+
+.profile-img {
+  border-radius: 16px;
+  width: 250px;
+  box-shadow: 1px 4px 5px 0px #757575;
+}
+
+.info {
+  color: #2D2D2D;
+
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+
+}
+
+
+.info h2 {
+  font-size: 20px;
+
+}
+
+.info h1 {
+  font-size: 38px;
+
+}
+
+
+.contactBtn {
+  padding: 16px;
+  background-color: #2D2D2D;
+  color: #FFFFFF ;
+  font-size: 18px;
+  font-weight: semibold;
+
+  border-radius: 16px;
+}
