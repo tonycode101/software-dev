@@ -9,8 +9,6 @@ body {
   font-family: sans-serif;
 }
 
-
-
 .header {
   position: relative;
   display: flex;
@@ -49,11 +47,9 @@ body {
   /* // horizontal / vertical-align */
   justify-content: center;
 
-
   /* // vertical-align: // horizontal */
 
   align-items: center;
- 
 }
 
 .profile-img {
@@ -63,51 +59,42 @@ body {
 }
 
 .info {
-  color: #2D2D2D;
-
+  color: #2d2d2d;
 
   display: flex;
   flex-direction: column;
   gap: 24px;
-
-
 }
-
 
 .info h2 {
   font-size: 20px;
-
 }
 
 .info h1 {
   font-size: 38px;
-
 }
-
 
 .contactBtn {
   padding: 16px;
-  background-color: #2D2D2D;
-  color: #FFFFFF ;
+  background-color: #2d2d2d;
+  color: #ffffff;
   font-size: 18px;
   font-weight: semibold;
 
   border-radius: 16px;
 }
 
-
-
-.skill-img{
-width: 124px;
-height: 124px;
+.skill-img {
+  width: 124px;
+  height: 124px;
 }
-.skill-card{
+.skill-card {
   display: flex;
   flex-direction: column;
   gap: 16px;
   width: 300px;
   justify-content: center;
-   align-items: center;
+  align-items: center;
 }
 
 .nav {
@@ -121,21 +108,16 @@ height: 124px;
 
   background-color: white;
 
-
-  position: absolute ;
+  position: absolute;
 
   right: 16px;
   top: 35px;
   border-radius: 16px;
   box-shadow: 1px 4px 5px 0px #757575;
-
-
-
-
 }
 
 .nav a {
-  color: #2D2D2D;
+  color: #2d2d2d;
   text-decoration: none;
 }
 
@@ -147,5 +129,27 @@ height: 124px;
 }
 .nav.active {
   display: flex;
+}
+.desktopNav {
+  display: none;
+}
+/* 768px: From here we start with the desktop version */
+@media (min-width: 768px) {
+  .btn {
+    display: none;
+  }
 
+  .desktopNav {
+    display: block;
+  }
+  .desktopNav ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+  }
+  .desktopNav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
 }
