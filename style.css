@@ -9,21 +9,31 @@ body {
   font-family: sans-serif;
 }
 
+.container {
+  box-shadow: 1px 4px 5px 0px #757575;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
 .header {
-  position: relative;
+ 
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 16px;
   height: 54px;
-
-  box-shadow: 1px 4px 5px 0px #757575;
+  width: 100%;
+  
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .logo {
   width: 40px;
   height: 40px;
 }
+
 
 .btn {
   padding: 12px;
@@ -145,7 +155,7 @@ body {
   .desktopNav ul {
     list-style: none;
     display: flex;
-    gap: 16px;
+    gap: 1rem;
   }
   .desktopNav a {
     color: black;
