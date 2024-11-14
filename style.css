@@ -143,10 +143,27 @@ body {
 .desktopNav {
   display: none;
 }
+.skill-container {
+  display: grid ;
+  grid-template-columns: 1fr  ; 
+  gap: .5rem; 
+  
+}
+
+
+
 /* 768px: From here we start with the desktop version */
 @media (min-width: 768px) {
+  .skill-container {
+   
+    grid-template-columns: 1fr 1fr  ; 
+   
+    
+  }
   .btn {
     display: none;
+   
+
   }
 
   .desktopNav {
